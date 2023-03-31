@@ -1,0 +1,37 @@
+h1::after { 
+  content: "";
+  position: absolute;
+  background: black;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  top: 105%;
+}
+
+h1{
+  position:relative;
+  display: inline-block;
+}
+.App {
+  text-align: center;
+}
+
+.options{ 
+  margin-top: 5%;
+}
+.tab{ 
+  border:none; 
+  padding: 10px 20px;
+  font-size: 14px;
+  background: none;
+  color:black;
+  margin:20px;
+  border: 1px solid rgb(221, 220, 220);
+  border-radius: 3px;
+}
+
+
+.tab:hover{
+  background: #f3f3f3;
+  border-radius: 5px;
+}

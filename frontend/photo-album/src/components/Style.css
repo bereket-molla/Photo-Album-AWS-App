@@ -1,0 +1,35 @@
+.select-file{ 
+   padding: 10px 20px;
+   font-size: 14px;
+   border: 1px solid rgb(221, 220, 220);
+   min-width: 300px;
+   border-radius: 3px;
+}
+input[type="file"]::-webkit-file-upload-button {
+    border: none;
+    outline: none;
+    padding:4px 8px;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 3px;
+}
+.button, .text-input{ 
+    padding: 10px 20px;
+    font-size: 14px; 
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 3px;
+    
+
+}
+.text-input{ 
+    margin:20px;
+    min-width: 300px;
+}
+.button:hover{
+    background-color: #e7e6e6;
+}
+.button{ 
+    border-radius: 3px;
+}
+.button i{
+    margin: 5px
+}
